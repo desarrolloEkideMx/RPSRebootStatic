@@ -1,0 +1,144 @@
+/*General*/
+
+/*Default layout*/
+
+/*Top_navbar*/
+.navbar{
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    padding: 0px !important;
+    color: #444444;
+}
+.container-title{padding: 0px !important;}
+.expand-container{max-width: 90% !important;}
+.usericon {margin: 0px 34px 0px 0px;}
+.signin-btn {
+    font-family: Calibri;
+    color: #767676;
+    font-size: 1.3rem;   
+    font-weight: 500;
+    padding: 4px 20px;
+}
+
+#navbarNav ul li
+{
+    display: flex;
+    align-items: center;
+    margin: 0px 15px;
+    cursor: pointer;
+}
+
+
+
+/*Body*/
+body {
+    background-color: #f1f1f1;
+}
+
+/*Footer*/
+footer {
+    text-align: left;
+    font-family: Calibri;
+    color: #767676;
+    font-size: 1.2rem;   
+    font-weight: 500;
+    margin-top: auto;
+}
+footer hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
+/* Containers */
+
+.shw-container {
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.fst-title {
+    background-color: #5c636a;
+    color: white;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight:400;
+    padding: 2px 0px;
+    user-select: none;
+}
+
+/* Data Tables */
+.dt-center {
+    text-align: center !important;
+}
+
+.dt-left {
+    text-align: left !important;
+}
+
+.dt-right {
+    text-align: right !important;
+}
+
+.dt-indent{
+    padding-left: 30px !important;
+}
+
+
+/*Home*/
+.welcome-text
+{
+    text-align: center;
+    font-family: Calibri;
+    color: #767676;
+    font-size: 2.5rem;   
+    font-weight: 500;
+    margin-top: auto;
+    margin-left: auto;
+}
+
+/*Signin layout*/
+.gradient-custom-2 {background: #5d666e;}
+
+@media (min-width: 768px) {.gradient-form {height: 100vh !important;}}
+@media (min-width: 769px) {
+    .gradient-custom-2 {
+        border-top-right-radius: .3rem;
+        border-bottom-right-radius: .3rem;
+    }
+}
+
+/* Admin Users */
+
+#adminUserContainer .btn {
+    margin: 0.375rem;
+}
+
+/* Date inputs */
+
+.date-input {
+    height: 38px;
+    font-size: 12px;
+    padding-left: 6px;
+  }
+  .date-input::-webkit-inner-spin-button,
+  .date-input::-webkit-calendar-picker-indicator {
+      display: none;
+      -webkit-appearance: none;
+  }
+  .date-input:focus::-webkit-calendar-picker-indicator, .date-input:hover::-webkit-calendar-picker-indicator {
+    display: block;
+    -webkit-appearance: menulist;
+  }
+  .date-input::-webkit-clear-button {
+    display: none;
+    -webkit-appearance: none;
+  }
+  .constrained-date {
+    max-width: 180px !important;
+  }
+
+  /* Rotate */
+
+  .rotate {
+    transform: rotate(180deg);
+}
